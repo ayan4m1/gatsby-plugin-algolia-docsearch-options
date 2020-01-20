@@ -1,0 +1,3 @@
+node_modules/
+/*.js
+/gatsby-plugin-algolia-docsearch-options-*.tgz

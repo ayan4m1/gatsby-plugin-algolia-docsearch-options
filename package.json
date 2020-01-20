@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-plugin-algolia-docsearch-options",
+  "version": "0.1.0",
+  "description": "Gatsby plugin to add Algolia Docsearch",
+  "author": "ayan4m1 <andrew@bulletlogic.com>",
+  "contributors": [
+    "Jimmy Cann <mail@jimmycann.com>",
+    "Steve Swanson <steve.e.swanson@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir ."
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.15"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-preset-gatsby-package": "^0.2.15",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.10",
+    "lint-staged": "^10.0.1",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1"
+  }
+}

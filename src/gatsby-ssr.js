@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+import React from 'react';
 import { stripIndent } from 'common-tags';
 
 export const onRenderBody = (

@@ -33,4 +33,4 @@ coverage
 decls
 examples
 
-/gatsby-source-reddit-wiki-*.tgz
+/gatsby-plugin-algolia-docsearch-options-*.tgz

@@ -18,7 +18,8 @@
   "scripts": {
     "build": "babel src --out-dir .",
     "prepare": "cross-env NODE_ENV=production npm run build && husky install",
-    "watch": "babel -w src --out-dir ."
+    "watch": "babel -w src --out-dir .",
+    "lint": "eslint src/"
   },
   "engines": {
     "node": ">=12.0.0"

@@ -7,6 +7,9 @@
     "Jimmy Cann <mail@jimmycann.com>",
     "Steve Swanson <steve.e.swanson@gmail.com>"
   ],
+  "files": [
+    "gatsby-*.js"
+  ],
   "license": "MIT",
   "keywords": [
     "gatsby",

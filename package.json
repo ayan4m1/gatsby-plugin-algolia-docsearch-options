@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-algolia-docsearch-options",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Gatsby plugin to add Algolia Docsearch",
   "author": "ayan4m1 <andrew@bulletlogic.com>",
   "contributors": [

@@ -19,29 +19,31 @@
     "build": "babel src --out-dir .",
     "prepare": "cross-env NODE_ENV=production npm run build && husky install",
     "watch": "babel -w src --out-dir .",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "version": "auto-changelog -p -l 10 && git add CHANGELOG.md"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "peerDependencies": {
-    "gatsby": "^5.x",
-    "react": "^18.x"
+    "gatsby": "5.x",
+    "react": "18.x"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.1"
+    "@babel/runtime": "^7.20.7"
   },
   "devDependencies": {
-    "@babel/cli": "^7.19.3",
-    "@babel/core": "^7.20.2",
-    "babel-preset-gatsby-package": "^3.0.0",
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "auto-changelog": "^2.4.0",
+    "babel-preset-gatsby-package": "^3.3.0",
     "cross-env": "^7.0.3",
-    "eslint": "^8.27.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.2"
   }
 }

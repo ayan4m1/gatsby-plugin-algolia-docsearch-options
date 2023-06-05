@@ -16,7 +16,7 @@ export const onRenderBody = (
     <link
       key="docsearch-css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"
+      href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"
     />
   ]);
 
@@ -24,7 +24,7 @@ export const onRenderBody = (
     <script
       key="docsearch-js"
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
+      src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"
     />,
     <script
       key="docsearch-initiate"

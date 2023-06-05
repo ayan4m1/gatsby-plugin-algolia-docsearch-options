@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = {
   env: {
     commonjs: true,
@@ -10,13 +8,12 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:prettier/recommended',
-    'plugin:import/errors',
-    'prettier'
+    'plugin:import/recommended'
   ],
-  parser: 'babel-eslint',
+  parser: '@babel/eslint-parser',
   parserOptions: {
-    ecmaVersion: 9,
-    sourceType: 'module'
+    requireConfigFile: false,
+    ecmaVersion: 12
   },
   rules: {
     'accessor-pairs': 2,

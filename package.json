@@ -23,7 +23,7 @@
     "version": "auto-changelog -p -l 10 && git add CHANGELOG.md"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0"
   },
   "peerDependencies": {
     "gatsby": "5.x",

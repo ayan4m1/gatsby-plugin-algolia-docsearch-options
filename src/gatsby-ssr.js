@@ -4,9 +4,9 @@ export const onRenderBody = (
   { setHeadComponents, setPostBodyComponents },
   options
 ) => {
-  const { apiKey, indexName, inputSelector } = options;
+  const { apiKey, indexName, container } = options;
 
-  if (!apiKey || !indexName || !inputSelector) {
+  if (!apiKey || !indexName || !container) {
     return;
   }
 
@@ -32,7 +32,7 @@ export const onRenderBody = (
       dangerouslySetInnerHTML={{
         __html: stripIndent`
         var observer = new MutationObserver(function (mutations, instance) {
-          var docSearchElem = document.querySelector('${inputSelector}');
+          var docSearchElem = document.querySelector('${container}');
           if (docsearch && docSearchElem) {
             docsearch(${optionString});
             instance.disconnect();

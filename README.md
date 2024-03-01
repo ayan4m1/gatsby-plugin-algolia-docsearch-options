@@ -4,7 +4,7 @@ A fork of [gatsby-plugin-algolia-docsearch](https://github.com/ironstar-io/gatsb
 
 ## requirements
 
-- Node >=16
+- Node >=18
 - Gatsby 5
 - React 18
 

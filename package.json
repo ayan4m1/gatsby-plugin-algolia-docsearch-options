@@ -16,11 +16,11 @@
     "gatsby-plugin"
   ],
   "scripts": {
-    "prepare": "husky",
     "lint": "eslint src/",
     "build": "babel src --out-dir .",
     "watch": "babel -w src --out-dir .",
-    "version": "auto-changelog -p -l 10 && git add CHANGELOG.md"
+    "version": "auto-changelog -p -l 10 && git add CHANGELOG.md",
+    "prepare": "husky"
   },
   "engines": {
     "node": ">=18.0.0"

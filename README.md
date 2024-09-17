@@ -4,13 +4,15 @@ A fork of [gatsby-plugin-algolia-docsearch](https://github.com/ironstar-io/gatsb
 
 ## requirements
 
-- Node >=18
+- Node 20+
 - Gatsby 5
 - React 18
 
 ## usage
 
-Install this package and its peer dependencies:
+You should already have gatsby and react installed.
+
+Start off by installing this package and its peer dependencies:
 
 > npm i --save gatsby-plugin-algolia-docsearch-options common-tags@1.x
 

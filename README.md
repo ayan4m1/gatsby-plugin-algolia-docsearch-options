@@ -5,8 +5,8 @@ A fork of [gatsby-plugin-algolia-docsearch](https://github.com/ironstar-io/gatsb
 ## requirements
 
 - Node 20+
-- Gatsby 5
-- React 18
+- Gatsby 5.x
+- React 18.x
 
 ## usage
 
